@@ -4,3 +4,17 @@
     color: white;
     padding: 5px;
 }
+
+.drop-zone {
+  color: green;
+  padding: 20px;
+  border: 1px dashed black;
+}
+.drop-zone.drop-zone-accept {
+  color: white;
+  background-color: green;
+}
+.drop-zone.drop-zone-reject {
+  color: white;
+  background-color: red;
+}
